@@ -1,4 +1,4 @@
 make
 ./execute inputFileName
-input file must a collection of numbers row by row
+input file must be a collection of numbers row by row
 output will be to the console.
