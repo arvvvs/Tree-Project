@@ -1,6 +1,16 @@
 /*
 Header file for AVL Tree
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <time.h>
+#include <ctime>
+
 using namespace std;
 
 struct AVLTreeNode
