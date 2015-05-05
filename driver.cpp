@@ -1,4 +1,4 @@
-#include AVLTree.cpp
+#include AVLTree.h
 
 /*
 A function to process the input data files into a vector that our trees can read from to eliminate I/O inconsistencies with timing.
