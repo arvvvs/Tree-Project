@@ -57,14 +57,22 @@ void performTests(vector<int> inputData, AVLTree AVLTestTree){ //need to add for
 
 int main(int argc, char* argv[]){
 
-	string Ascending1KTestFile = "Ascending1KTest.txt";
-	string Ascending10KTestFile = "Ascending10KTest.txt";
-	string Ascending1MTestFile = "Ascending1MTest.txt";
-	string Descending1KTestFile = "Descending1KTest.txt";
-	string Descending10KTestFile = "Descending10KTest.txt";
-	string Descending1MTestFile = "Descending1MTest.txt";
+//	string Ascending1KTestFile = "Ascending1KTest.txt";
+//	string Ascending10KTestFile = "Ascending10KTest.txt";
+//	string Ascending1MTestFile = "Ascending1MTest.txt";
+//	string Descending1KTestFile = "Descending1KTest.txt";
+//	string Descending10KTestFile = "Descending10KTest.txt";
+//	string Descending1MTestFile = "Descending1MTest.txt";
+	
+	string inFile;
+	if(argc ==2){
+	ifile = argv[1];
+	}
+	else{
+		cout<<"incorrect parameters"<<endl;
+	}
 	vector<int> inputData;
-	inputData = processTestFile(Descending1MTestFile);
+	inputData = processTestFile(inFile);
 
 	AVLTree AVLTestTree;
 
