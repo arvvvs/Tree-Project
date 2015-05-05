@@ -1,4 +1,0 @@
-make
-./execute inputFileName
-input file must a collection of numbers row by row
-output will be to the console.
